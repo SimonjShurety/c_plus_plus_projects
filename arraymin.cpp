@@ -8,7 +8,7 @@ int const TOTALNUMBEROFELEMENTS = 5;
 
 int MinOfArray(int arr[])
 {
-    int minCheck = 99;
+    int minCheck = INT_MAX;
 
     for (int i = 0; i < TOTALNUMBEROFELEMENTS; i++)
     {
